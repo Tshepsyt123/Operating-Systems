@@ -18,6 +18,8 @@ To verify the currently logged-in user, the following command was executed:
 whoami
 
 The whoami command displays the username of the active session, confirming which account is performing administrative actions.
+<img width="701" height="107" alt="sc1" src="https://github.com/user-attachments/assets/4e6039cd-abea-4cd2-b69c-4767b78f27c1" />
+
 
 2️⃣ User and Group Management
 
@@ -46,6 +48,8 @@ To confirm group membership, the following command was executed:
 net localgroup interns
 
 This displayed all users within the group, confirming that student1 was successfully added.
+<img width="613" height="132" alt="sc2" src="https://github.com/user-attachments/assets/a66f4b7e-daf1-41ea-a851-277aa3f74018" />
+
 
 3️⃣ File System and Permission Management (NTFS)
 
@@ -74,6 +78,8 @@ Permissions were verified again using:
 icacls C:\ProjectFolder
 
 The output confirmed that the interns group was assigned full control access.
+<img width="541" height="147" alt="sc3" src="https://github.com/user-attachments/assets/5878d793-9bf2-497f-aa78-8f0678ee9ad0" />
+
 
 4️⃣ Package Management Using Chocolatey
 
@@ -88,6 +94,8 @@ If not installed, it was installed via PowerShell with administrative privileges
 To install software using Chocolatey, the following command was used:
 
 choco install googlechrome -y
+<img width="586" height="248" alt="sc4" src="https://github.com/user-attachments/assets/d6545fc1-b76d-4c75-b160-6b3628f82388" />
+
 
 or
 
@@ -96,6 +104,10 @@ choco install vlc -y
 The choco install command downloads and installs software packages from the Chocolatey repository. The -y parameter automatically confirms installation prompts. The successful launch of the installed application verified correct installation.
 
  Screenshots Included
+ <img width="548" height="181" alt="sc5" src="https://github.com/user-attachments/assets/e114317e-d1e7-4c34-bafd-7e2d59541a8d" />
+ <img width="881" height="766" alt="sc6" src="https://github.com/user-attachments/assets/ddc7022a-4e5b-4c40-bd70-d2c6577a63b5" />
+
+
 
 Screenshots were captured as evidence of:
 
